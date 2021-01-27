@@ -11,14 +11,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val images = listOf<image>(
-            image("Images1", R.drawable.cprogrr),
-            image("Images2", R.drawable.cplu),
-            image("Images3", R.drawable.java),
-            image("Images4", R.drawable.phyton),
-            image("Images5", R.drawable.boot),
-            image("Images6", R.drawable.aspn),
-            image("Images6", R.drawable.php),
-            image("Images6", R.drawable.ping),
+            image("C programming", R.drawable.cprogrr),
+            image("C ++", R.drawable.cplu),
+            image("Java", R.drawable.java),
+            image("Phyton", R.drawable.phyton),
+            image("Boot", R.drawable.boot),
+            image("Asp.Net", R.drawable.aspn),
+            image("PHP", R.drawable.php),
+            image("Unix", R.drawable.ping),
         )
         val recyclerView = findViewById<RecyclerView>(R.id.ImagesRecyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
